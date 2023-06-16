@@ -1,0 +1,103 @@
+.lest-news{
+    padding-bottom: 120px;
+    .w-5{
+        justify-content: flex-end;
+        align-items: center;
+        display: flex;
+        h6{
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 1.5;
+            color: var(--text-color);
+            a{
+                color: inherit;
+                display: inline-block;
+            }
+            i{
+                position: relative;
+                top: 3px;
+                font-size: 20px;
+
+            }
+        }
+    }
+    .box{
+        display: flex;
+        margin-top: 80px;
+        .w-4{
+            .item{
+                position: relative;
+                background: #fff;
+                box-shadow: 0 20px 40px rgba($color: rgb(71, 67, 97), $alpha: 0.09);
+                border-radius: 5px;
+                overflow: hidden;
+                .img{
+                    padding-left: 50px;
+                    position: relative;
+                    overflow: hidden;
+                    .tags{
+                        top: auto;
+                        bottom: 0;
+                        right: 0;
+                        margin-bottom: 0;
+                        position: absolute;
+                        font-size: 13px;
+                        font-weight: 500;
+                        background: #fff;
+                        display: inline-block;
+                        a{
+                            padding: 7px 10px;
+                            display: inline-block;
+                            color: var(--text-color);
+                            color: inherit;
+                        }
+                    }
+                }
+                .cont{
+                    padding: 40px 30px 40px 50px;
+                    .info{
+                        display: flex;
+                        margin-bottom: 15px;
+                        position: absolute;
+                        top: 10px;
+                        left: -55px;
+                        transform: rotate(-90deg) translateX(-50%);
+                        .author{
+                            font-size: 12px;
+                            text-transform: uppercase;
+                            letter-spacing: 1px;
+                            margin-right: 15px;
+                            font-weight: 500;
+                        }
+                        .date{
+                            margin: 0;
+                            letter-spacing: normal;
+                            font-weight: 400;
+                            opacity: .7;
+                            font-size: 12px;
+                            text-transform: uppercase;
+                            .text{
+                                background-image: var(--gradient-color);
+                                -webkit-background-clip: text;
+                                background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                            }
+                        }
+                    }
+                    .titles{
+                        h5{
+                            line-height: 1.7;
+                            font-size: 18px;
+                            font-weight: 700;
+                            a{
+                                display: inline-block;
+                                color: inherit;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
